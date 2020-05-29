@@ -18,9 +18,13 @@
   <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
   <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/loader.css">
 </head>
 
-<body>
+<body onload="loader()">
+	<div id="loader"></div>
+	<div id="content">
+	
   <div class="site-wrap">
     <div class="site-mobile-menu">
       <div class="site-mobile-menu-header">
@@ -73,11 +77,12 @@
                      	<a href="about.html">About Us</a>
                      </li>
                     <li class="has-children">
-                      <a>Services</a>
+                      <a href="services.html">Services</a>
                       <ul class="dropdown arrow-top">
-                        <li><a href="services.html">Service</a></li>
-                        <li><a href="#">Menu Two</a></li>
-                        <li><a href="#">Menu Three</a></li>
+                        <li><a href="services.html">Consultancy</a></li>
+                        <li><a href="#">Environmental Management</a></li>
+                        <li><a href="#">Engineering and construction</a></li>
+                        <li><a href="#">Agriculture</a></li>
                       </ul>
                     </li>
                     <li><a href="contact.html">Contact</a></li>
@@ -255,7 +260,7 @@
         </div>
       </div>
     </div>
-    <div class="site-section bg-light">
+   <!-- <div class="site-section bg-light">
       <div class="container">
         <div class="block-13 nonloop-block-13 owl-carousel" data-aos="fade">
           <div class="p-4">
@@ -314,10 +319,10 @@
         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id cum vel, eius nulla inventore aperiam excepturi molestias incidunt, culpa alias repudiandae, a nobis libero vitae repellendus temporibus vero sit natus.</p>
         <p>Dolores perferendis ipsam animi fuga, dolor pariatur aliquam esse. Modi maiores minus velit iste enim sunt iusto, dolore totam consequuntur incidunt illo voluptates vero quaerat excepturi. Iusto dolor, cum et.</p>
       </div>
-    </div>
+    </div> -->
     <div class="promo py-5 bg-primary" data-aos="fade">
       <div class="container text-center">
-        <h2 class="d-block mb-0 font-weight-light text-white"><a href="#" class="text-white d-block">Contact us for quotations</a></h2>
+        <h2 class="d-block mb-0 font-weight-light text-white"><a href="contact.html" class="text-white d-block">Contact us for quotations</a></h2>
       </div>
     </div>
     <footer class="site-footer">
@@ -325,7 +330,7 @@
         <div class="row">
           <div class="col-lg-7">
             <div class="row">
-              <div class="col-6 col-md-4 col-lg-4 mb-5 mb-lg-0">
+              <div class="col-6 mb-lg-0">
                 <h3 class="footer-heading mb-4">Company</h3>
                 <ul class="list-unstyled">
                   <li><a href="about.html">About</a></li>
@@ -333,26 +338,9 @@
                   <li><a href="#">Careers</a></li>
                 </ul>
               </div>
-              <div class="col-6 col-md-4 col-lg-4 mb-5 mb-lg-0">
-                <h3 class="footer-heading mb-4">Navigations</h3>
+              <div class="col-6 mb-lg-0">
+                <h3 class="footer-heading mb-4">Social Media</h3>
                 <ul class="list-unstyled">
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Approach</a></li>
-                  <li><a href="#">Sustainability</a></li>
-                  <li><a href="#">News</a></li>
-                  <li><a href="#">Careers</a></li>
-                </ul>
-              </div>
-              <div class="col-6 col-md-4 col-lg-4 mb-5 mb-lg-0">
-                <h3 class="footer-heading mb-4">Quick Menu</h3>
-                <ul class="list-unstyled">
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Approach</a></li>
-                  <li><a href="#">Sustainability</a></li>
-                  <li><a href="#">News</a></li>
-                  <li><a href="#">Careers</a></li>
                 </ul>
               </div>
             </div>
@@ -360,16 +348,17 @@
           <div class="col-lg-5">
             <div class="row mb-5">
               <div class="col-md-12">
-                <h3 class="footer-heading mb-4">Europe</h3>
+                <h3 class="footer-heading mb-4">Lagos</h3>
               </div>
               <div class="col-md-6">
-                <p>London - 2398 <br> 10 Japson Street</p>
+                <p>1, Yomi Deolu Moroti <br> Gbopa Ijede,
+					Ikorodu,</p>
               </div>
               <div class="col-md-6">
                 Tel. + (123) 3240-345-9348 <br> Mail. <a href="https://colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="debbabacb1aebb9ea7b1abbab1b3bfb7b0f0bdb1b3">[email&#160;protected]</a>
               </div>
             </div>
-            <div class="row">
+            <!--<div class="row">
               <div class="col-md-12">
                 <h3 class="footer-heading mb-4">USA</h3>
               </div>
@@ -379,7 +368,7 @@
               <div class="col-md-6">
                 Tel. + (123) 3240-345-9348 <br> Mail. <a href="https://colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3d484e5c7d4452485952505c5453135e5250">[email&#160;protected]</a>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="row pt-5 mt-5 text-center">
@@ -424,6 +413,19 @@
     gtag('config', 'UA-23581568-13');
   </script>
   <script src="js/rocket-loader.min.js" data-cf-settings="d129422603945a3f0a2d14ad-|49" defer=""></script>
+	</div>
+	<script type="text/javascript">
+		var pager
+
+		function loader() {
+		  pager = setTimeout(showPage, 1000);
+		}
+
+		function showPage() {
+			document.getElementById("loader").style.display = "none";
+			document.getElementById("content").style.display = "block";
+		}
+	</script>
 </body>
 
 </html>
