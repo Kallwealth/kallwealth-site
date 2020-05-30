@@ -1,7 +1,7 @@
 		var pager
 
 		function loader() {
-		    pager = setTimeout(showPage, 1000);
+		    pager = setTimeout(showPage, 750);
 		}
 
 		function showPage() {
