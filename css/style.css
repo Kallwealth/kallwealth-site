@@ -696,6 +696,25 @@
 	height:calc(77vh)
 }
 
+
+@media(max-width:750px){
+	.table{
+		max-height:80%;
+		max-width: 80%;
+		text-align: center;
+		margin: 10%;
+	}
+}
+
+@media(min-width:751px){
+	.table{
+		max-height:60%;
+		max-width: 60%;
+		text-align: center;
+		margin: 2.5% 20% 2.5% 20%;
+	}
+}
+
 .site-blocks-cover.inner-page,.site-blocks-cover.inner-page .row
 {
 	min-height:600px;
