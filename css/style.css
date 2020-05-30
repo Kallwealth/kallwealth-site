@@ -689,6 +689,13 @@
 	min-height:600px;
 	height:calc(100vh)
 }
+
+.site-slide,.site-slide .row
+{
+	min-height:250px;
+	height:calc(77vh)
+}
+
 .site-blocks-cover.inner-page,.site-blocks-cover.inner-page .row
 {
 	min-height:600px;
