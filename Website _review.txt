@@ -1,0 +1,34 @@
+----------------------- WEBSITE REVIEW 1 To David --------------------------------
+0. kallwealth.com --> David/iD (work on dns on godaddy.com)
+1. Remove twitter
+2. Facebook remains
+3. Linked-in remains (but we need to create accounts --> Engr. Yomi)
+4. Phone number - +2348030862810. include WhatsApp icon along with phone icon
+5. email - kallwealth@mail.com; kallwealthinvestltd@gmail.com
+6. Instagram remains, (but we need to create accounts --> Engr. Yomi)
+7. Kallwealth logo --> Engr. Yomi
+8. Remove - "let the number speak for us" and the details
+9. "About us" - Merge "Our vision and mission"
+10. "About us" - details of "client first" moves to "consultancy services
+11. "About us" - then remove client first from "about us"
+12. "About us" - remove "diverse" including all details
+13. "About us" - details of "experience and professionalism" moves to "our background"
+14. "About us" - then remove "experience and professionalism"
+15. "About us" - RESULT - We have only two sections 1. Our background, 2.Our Target
+16. "Contact" - No need for "get in touch" banner. "contact" link should land of form-fill directly.
+17. "Contact" - Remove - "Yomi Deoulu Moroti........." Replace with "27 Amore Street, Off Toyin Street, Ikeja Lagos"
+18. "Contact" - "Phone" - +2348030862810, +2347011759973
+19. "Contact" - "email address" - kallwealth@mail.com; kallwealthinvestltd@gmail.com
+20. "Contact" - "visit our office" 	- Lagos office 	--	27 Amore Street, 
+														Off Toyin 	Street, Ikeja Lagos
+													--	Suite I244, Ikota Shopping
+														complex, VGC, Ajah-Lekki, Lagos
+													--	1 Yomi Deolu Moroti Street,
+														Gbopa, Ijede Ikorodu, Lagos
+														
+									- Abuja office 	--	"Use your home address"
+21. "Contact" - "visit our office" - Remove "company" and the about and services link.
+22."Contact" - "visit our office" - Remove social media
+23. "Copyright"	-	"Kallwealth" is one word. Delete space between Kall and wealth.
+24. "Copyright"	- remove the "love" emoji in "made with ....". use a phrase like "powered by...." or something similar.
+24. "Services" - include new service named "Equipment lease & sale"
